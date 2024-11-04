@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:wght@700&display=swap');
 
 *{
+
+.work-sans-<uniquifier> {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:wght@700&display=swap');
+
+*{
   font-family: "Work Sans", sans-serif;
 
 }
@@ -44,4 +55,34 @@ header{
   }
   .banner-description{
     color: #727272;
+  }
+  .btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    cursor: pointer;
+  }
+  .banner img{
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 576px) {
+    header{
+      padding : 20px;
+    }
+    nav{
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (min-width : 576px) and (max-width : 960px) {
+     nav{
+      flex-direction: column;
+     }
+    
   }
