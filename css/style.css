@@ -138,8 +138,21 @@ facts-card-containe .card-text{
 }
 
 
+.sponsor{
+  text-align: center;
+}
+.sponsor-img-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  gap: 40px;
+  align-items: center;
+}
 
 
+.sponsor-img-container img{
+  width: 165px;
+}
 
 
 
@@ -160,20 +173,25 @@ facts-card-containe .card-text{
     header{
       padding : 20px;
     }
-    nav , .teams-container{
+    nav , .teams-container, .facts-card-container, sponsor-img-container{
       flex-direction: column;
     }
     .img-container{
       grid-template-columns: 1fr;
     }
-    .teams-content{
+    .teams-content, .facts-card-container{
       padding-right: 20px;
       padding-left: 20px;
+    }
+    .facts-card-container{
+      gap: 20px;
     }
   }
 
   @media screen and (min-width : 576px) and (max-width : 960px) {
-     nav , .teams-container{
+     nav , .teams-container,
+     .sponsor-img-container
+     {
       flex-direction: column;
      }
     
