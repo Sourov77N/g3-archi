@@ -106,14 +106,36 @@ header{
 
 
 
+.facts-card-container{
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.facts-card-container .card{
+border-radius: 8px;
+border: 1px solid #FF900E;
+text-align: center;
+padding: 30px;
+
+color: ;  
+  
+}
+
+.facts-card-container .card-title{
+  font-size: 2.8rem;
+  color: #424242;
+  margin-top: 10px;
+margin-bottom: 10px;
+}
 
 
+facts-card-containe .card-text{
+  font-weight: 600px;
+  font-size: 1.25rem;
+  margin-top: 20px;
 
-
-
-
-
-
+}
 
 
 
