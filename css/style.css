@@ -198,11 +198,13 @@ facts-card-containe .card-text{
   
 }
 
-.copy{
+.footer-container{
   text-align: center;
   background-color: #FFF4E7;
   padding-top: 30px;
+  width: 1440px;
   height: 100px;
+  margin: 70px auto;
 }
 
 
